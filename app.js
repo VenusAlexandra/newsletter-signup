@@ -58,28 +58,5 @@ app.listen(3000, function () {
   console.log("Server is running on port 3000.");
 });
 
-// Stringify inputed data
 
-//   const jsonData = JSON.stringify(data);
 
-//   const url = "https://us18.api.mailchimp.com/3.0/lists/e4fff56104;";
-
-//   const options = {
-//     method: "POST",
-//     auth: "venus1:80dc2834c9bf00245fe8c4552395cd08-us18",
-//   };
-
-//   //   Request and send back data to MailChimp.
-//   const request = https.request(url, options, function (response) {
-//     response.on("data", function (data) {
-//       console.log(JSON.parse(data));
-//     });
-//   });
-//   request.write(jsonData);
-//   res.end();
-// });
-
-// // API key for MailChimp
-// 80dc2834c9bf00245fe8c4552395cd08-us18
-
-// List ID  e4fff56104
